@@ -18,4 +18,4 @@ op = int(input("Escolha a operação (1-Soma, 2-Subtração, 3-Multiplicação, 
 
 # Chamada e exibição do resultado
 resultado = calculadora(num1 ,num2, op)
-print(f"Resultado: {resultado}")
+print(f"Resultado: {resultado:.2f}")
