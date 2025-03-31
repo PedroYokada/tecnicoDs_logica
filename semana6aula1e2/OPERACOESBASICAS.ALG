@@ -1,7 +1,7 @@
 Algoritmo "OperacoesBasicas"
 Var
    numero1, numero2: real
-   adicao, subtracao, multiplicacao, divisao: real
+   adicao, subtracao, multiplicacao, divisao,resto: real
 Inicio
    // Passo 1: Entrada de dados
    Escreva("Digite o primeiro número: ")
@@ -15,6 +15,7 @@ Inicio
    subtracao <- numero1 - numero2
    multiplicacao <- numero1 * numero2
    divisao <- numero1 / numero2
+
 
    // Passo 3: Saída de dados
    Escreval("A adição dos números é: ", adicao)
