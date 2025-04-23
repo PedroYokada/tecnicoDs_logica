@@ -1,4 +1,4 @@
-dolar = float(input('Insira o valor em dólares: '))
+dolar = float(input('Insira o valor em dolar: '))
 cotacao = float(input('Insira a cotação do dólar: '))
 
 valor_real = dolar * cotacao
