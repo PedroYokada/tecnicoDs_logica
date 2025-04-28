@@ -5,7 +5,7 @@ alfabeto = {
     'v', 'w', 'x', 'y', 'z'
 }
 
-letra = input("Digite uma letra: ").lower()
+letra = input("Digite uma letra: ").upper()
 
 if letra in alfabeto:
     print(f'A letra "{letra}" é reconhecida do alfabeto.')
