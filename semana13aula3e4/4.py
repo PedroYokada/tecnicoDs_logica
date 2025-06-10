@@ -6,4 +6,4 @@ def exemplo_if_else(valor):
     else:
         return "Outra opção"
 
-print(exemplo_if_else('A'))  # Saída: Opção A selecionada
+print(exemplo_if_else('a'))  # Saída: Opção A selecionada
